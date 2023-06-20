@@ -1,0 +1,85 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+select{width:80px;
+	height:30px;
+	font-family:system-ui;
+	font-size:12pt;
+	text-align:center;
+	border:2px solid #191970;}
+
+
+</style>
+<script>
+function changeImage(){
+	var image = document.getElementById("myImage");
+	var select = document.getElementById("mySelect");
+	image.src = select.value;
+	image.style.display="block";}
+
+
+
+</script>
+	</head>
+
+<body>
+<header>
+<h2><a href ="#" class = "logo">Sleet</a></h2>
+<ul>
+<li><a href ="sleet.html">Home</a></li>
+<li><a href ="products.html"class="active">Products</a></li>
+<li><a href ="services.html">Services</a></li>
+<li><a href ="about us.html">About us</a></li>
+<li><a href ="contact.html">Contact</a></li>
+</ul>
+
+</header>
+<h1>_______________________________________________________________________________________________</h1>
+<header>
+<ul>
+<li><a href ="products.html">All products</a></li>
+<li><a href ="Phones.html"class="active">Phones</a></li>
+<li><a href ="PCs.html">PCs</a></li>
+<li><a href ="Ac.html">Accessories</a></li>
+</ul>
+</header>
+
+<table>
+<tr><td><div class = "info"></br><p>Apple iPhone XR 128GB_____Price 800₪</p><select id="mySelect" onchange ="changeImage()">
+<option value ="apple iphone XR black.jpg">Black</option>
+<option value ="apple iphone XR red.jpg">Red</option>
+<option value ="apple iphone XR white.jpg">White</option>
+</select>
+<img id = "myImage" src ="apple iphone XR black.jpg" alt="">
+</div></td>
+<td><div class ="disc">
+<table class="dis">
+<tr><td>Dimensions</td><td>(mm)150.9 x 75.7 x 8.3 mm</td></tr>
+<tr><td>Weight</td><td>(g)194 g</td></tr>
+<tr><td>SIM </td><td>TypeNano-SIM, Electronic SIM card (eSIM)</td></tr>
+<tr><td>Screen </td><td>TypeIPS LCD capacitive touchscreen, 16M colors</td></tr>
+<tr><td>Screen size </td><td>(inches)6.1 inches</td></tr>
+<tr><td>Screen Resolution</td><td>828 x 1792 pixels, 19.5:9 ratio</td></tr>
+<tr><td>Operating System</td><td>iOS 12, upgradable to iOS 12.1</td></tr>
+<tr><td>Processor</td><td>Hexa-core (2x2.5 GHz Vortex + 4x1.6 GHz Tempest)</td></tr>
+<tr><td>Memory</td><td> (RAM)3 GB</td></tr>
+<tr><td>Internal storage</td><td>128 GB</td></tr>
+<tr><td>Rear camera</td><td>12 MP, f/1.8, 26mm (wide), 1/2.55", 1.4µm, OIS, PDAF</td></tr>
+<tr><td>Front camera</td><td>7 MP, f/2.2, 32mm (standard)</td></tr>
+<tr><td>Wi-FiWi-Fi</td><td> 802.11 a/b/g/n/ac, dual-band, hotspot</td></tr>
+<tr><td>Bluetooth</td><td>5.0, A2DP, LE</td></tr>
+<tr><td>GPS</td><td>Yes, with A-GPS, GLONASS, GALILEO, QZSS</td></tr>
+<tr><td>NFC</td><td>Yes</td></tr>
+<tr><td>Battery capacity</td><td> (mAh)Non-removable Li-Ion 2942 mAh battery</td></tr>
+<tr><td>Flash</td><td>Quad-LED dual-tone flash</td></tr>
+<tr><td>Dual SIM</td><td>Yes</td></tr>
+</table>
+
+</div></td></tr>
+</table>
+</body>
+
+
+
+</html>

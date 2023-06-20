@@ -1,0 +1,82 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+select{width:80px;
+	height:30px;
+	font-family:system-ui;
+	font-size:12pt;
+	text-align:center;}
+
+</style>
+<script>
+function changeImage(){
+	var image = document.getElementById("myImage");
+	var select = document.getElementById("mySelect");
+	image.src = select.value;
+	image.style.display="block";}
+
+
+
+</script>
+	</head>
+
+<body>
+<header>
+<h2><a href ="#" class = "logo">Sleet</a></h2>
+<ul>
+<li><a href ="sleet.html">Home</a></li>
+<li><a href ="products.html"class="active">Products</a></li>
+<li><a href ="services.html">Services</a></li>
+<li><a href ="about us.html">About us</a></li>
+<li><a href ="contact.html">Contact</a></li>
+</ul>
+
+</header>
+<h1>_______________________________________________________________________________________________</h1>
+<header>
+<ul>
+<li><a href ="products.html">All products</a></li>
+<li><a href ="Phones.html"class="active">Phones</a></li>
+<li><a href ="PCs.html">PCs</a></li>
+<li><a href ="Ac.html">Accessories</a></li>
+</ul>
+</header>
+
+<table>
+<tr><td><div class = "info"></br><p>Samsung Galaxy A53 5G 128GB_____Price 1400₪</p><select id="mySelect" onchange ="changeImage()">
+
+<option value ="samsong2.jpg">Product</option>
+<option value ="samsong.jpg">Colors</option>
+</select>
+<img id = "myImage" src ="samsong2.jpg" alt="">
+
+
+</div></td><td><div class ="disc">
+<table class="dis">
+<tr><td>Dimensions</td><td>(mm)159.6 x 74.8 x 8.1 mm (6.28 x 2.94 x 0.32 in)</td></tr>
+<tr><td>Weight</td><td>(g)189 g (6.67 oz)</td></tr>
+<tr><td>SIM type</td><td>Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by) IP67 dust/water resistant (up to 1m for 30 mins) (eSIM)</td></tr>
+<tr><td>Screen Type</td><td>Super AMOLED, 120Hz, 800 nits (HBM)</td></tr>
+<tr><td>Screen size </td><td>(inches)6.5 inches, 102.0 cm2 (~85.4% screen-to-body ratio)</td></tr>
+<tr><td>Screen Resolution</td><td>1080 x 2400 pixels, 20:9 ratio (~405 ppi density)</td></tr>
+<tr><td>Operating System</td><td>Android 12, One UI 4.1</td></tr>
+<tr><td>Memory</td><td> (RAM)128GB</td></tr>
+<tr><td>Internal storage</td><td>128 GB</td></tr>
+<tr><td>Rear camera</td><td>64 MP, f/1.8, 26mm (wide), 1/1.7X", 0.8µm, PDAF, OIS 12 MP, f/2.2, 123˚ (ultrawide), 1.12µm 5 MP, f/2.4, (macro) 5 MP, f/2.4, (depth) LED flash, panorama, HDR</td></tr>
+<tr><td>Front camera</td><td>32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm Video4K@30fps, 1080p@30fps</td></tr>
+<tr><td>Wi-FiWi-Fi</td><td> 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot</td></tr>
+<tr><td>Bluetooth</td><td>5.1, A2DP, LE</td></tr>
+<tr><td>GPS</td><td>Yes, with A-GPS, GLONASS, GALILEO, BDS</td></tr>
+<tr><td>NFC</td><td>Yes (market/region dependent)</td></tr>
+<tr><td>Battery capacity</td><td> (mAh)Li-Po 5000 mAh, non-removable</td></tr>
+<tr><td>SensorsFingerprint </td><td>(under display, optical), accelerometer, gyro, compass, barometer Virtual proximity sensing</td></tr>
+</table>
+
+</div></td></tr>
+</table>
+</body>
+
+
+
+</html>
